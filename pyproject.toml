@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "twitter-etl"
+version = "0.1.0"
+description = ""
+authors = ["Jhonathan <jhonathanortizh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^21.9b0"
+bandit = "^1.7.0"
+mypy = "^0.910"
+flake8 = "^3.9.2"
+flake8-mypy = "^17.8.0"
+flake8-black = "^0.2.3"
+flake8-bandit = "^2.1.2"
+flake8-spellcheck = "^0.24.0"
+flake8-bugbear = "^21.9.1"
+jupyterlab-flake8 = "^0.7.1"
+flake8-docstrings = "^1.6.0"
+flake8-import-order = "^0.18.1"
+flake8-annotations = "^2.6.2"
+tweepy = "^4.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
