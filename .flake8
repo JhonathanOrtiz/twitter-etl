@@ -1,0 +1,9 @@
+[flake8]
+select = ANN,B,B9,BLK,C,D,DAR,E,F,I,S,W
+max-complexity = 10
+ignore = E203,E501,W503,B950
+max-line-lenght = 80
+application-import-names = crawling,utils
+import-order-style = google
+per-file-ignores = tests/*:S101, *:ANN101
+docstring-convention = google

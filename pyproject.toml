@@ -20,6 +20,7 @@ flake8-docstrings = "^1.6.0"
 flake8-import-order = "^0.18.1"
 flake8-annotations = "^2.6.2"
 tweepy = "^4.0.0"
+darglint = "^1.8.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
